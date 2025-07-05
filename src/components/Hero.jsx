@@ -1,5 +1,5 @@
 import Button from "./Button";
-import illustration from "../assets/task.png"; // Replace with your image
+import illustration from "../assets/task.png";
 
 const Hero = () => {
   return (
