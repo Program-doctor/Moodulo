@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/moodulo-logo-2.png"; 
+import logo from "../assets/Moodulo-logo-2.png"; 
 import Button from "./Button";
 
 const Navbar = () => {
