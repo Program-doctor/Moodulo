@@ -3,7 +3,7 @@ import illustration from "../assets/task.png";
 
 const Hero = () => {
   return (
-    <section className=" relative w-full px- pt-24 md:pt-28 flex pb-12 items-center bg-[#f7f7f7] ">
+    <section className=" relative w-full  pt-28 md:pt-30 flex pb-12 items-center bg-[#f7f7f7] ">
       <div className="w-full  bg-[#f7f7f7] flex flex-col-reverse md:flex-row items-center justify-between gap-12 ">
         {/* Text Block */}
         <div className="text-center md:text-left md:w-1/2 z-11 px-4">
@@ -43,6 +43,19 @@ const Hero = () => {
     />
   </svg>
 
+  {/* Desktop Blob */}
+  <svg
+    className="absolute z-0 hidden md:hidden lg:block w-[290px] h-auto right-0 top-[-235px] overflow-hidden"
+    viewBox="0 0 292 514"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M41.63 456.241C-105.923 287.788 184.114 133.476 270.921 46.6683C357.729 -40.1391 498.471 -40.1392 585.279 46.6682C672.086 133.476 672.086 274.218 585.279 361.026C498.471 447.833 204.15 594.457 41.63 456.241Z"
+      fill="#e1fbea"
+    />
+  </svg>
+
 
 
   {/* Illustration */}
@@ -52,8 +65,6 @@ const Hero = () => {
     className="relative z-10 w-[200px] md:w-[290px]"
   />
 </div>
-
-
       </div>
       
     </section>
